@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Airdrop"
+    android:orientation="vertical"
+    android:background="@drawable/ic_launcher_background">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/airdrop"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="22dp"
+        android:text="توضیحات :
+
+به طور خلاصه میتوتن گفت ایردراپ به دریافت ارز دیجیتال رایگان در ازای انجام کارهایی که هزینه ای ندارد .اهداف این کار برای دیده شدن ارز های جدید و سر زبان افتادن انها است  .البته ارزهای قدیمی هم گاه گاهی ایرداپ مخصوص به ارز خود را راه اندازی میکنند .برای دریافت ارز باید کار هایی نظیر عضو شدن در گروه شبکه های اجتماعی کامنت گذاشتن عضویت در تویتتر انها و کار هایی نظیر این انجام شود
+
+برای برداشت شما ادرس کیف پول خوذ را از قبل در ایردراپ ثبت کرده اید و در زمان واریز به ادرش شما واریز میشود"
+
+        android:textColor="#673AB7"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/homebtn"
+        android:layout_gravity="center"
+        android:onClick="homeAirdrop"
+        />
+
+
+</LinearLayout>

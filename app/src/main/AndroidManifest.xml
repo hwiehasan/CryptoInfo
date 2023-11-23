@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cryptoinfo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CryptoInfo">
+        <activity android:name=".Setting"></activity>
+        <activity android:name=".AyaMidanid" />
+        <activity android:name=".Airdrop" />
+        <activity android:name=".ListViewActivity3" />
+        <activity android:name=".ListViewActivity2" />
+        <activity android:name=".ShowImageActivity3" />
+        <activity android:name=".ShowImageActivity2" />
+        <activity android:name=".ShowImageActivity1" />
+        <activity android:name=".ListViewActivity" />
+        <activity android:name=".ShowImageActivity" />
+        <activity android:name=".GridMoarrefiArzActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

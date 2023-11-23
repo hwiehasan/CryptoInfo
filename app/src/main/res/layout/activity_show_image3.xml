@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowImageActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/bigImage"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@mipmap/a2_dash"
+                android:scaleType="fitXY"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:id="@+id/imageDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="تست تصویر یک"
+                android:layout_below="@+id/bigImage"
+                android:layout_marginBottom="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="25dp"
+
+                />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/prevImageBtn"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/backbtn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="showPreImage"
+        />
+    <ImageView
+        android:id="@+id/nextImageBtn"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/nextbtn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="showNextImage"
+        />
+    <ImageView
+        android:id="@+id/homeBtn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/homebtn"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="home"
+        />
+
+
+</RelativeLayout>
+

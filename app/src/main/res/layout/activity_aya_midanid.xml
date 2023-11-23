@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AyaMidanid"
+    android:orientation="vertical"
+    android:background="@mipmap/backgroundhome">
+<RelativeLayout
+    android:id="@+id/r1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    <Button
+        android:id="@+id/t1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="آیا میدانید اگر 5 سال پیش یک بیتکوین به قیمت سه میلیون تومان میخریدید الان یک میلیاردر بودید ؟"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/bigbtncolor"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="180dp"
+        android:src="@mipmap/a1_bitcoin"
+        android:layout_alignParentRight="true"
+        />
+</RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/r1"
+        >
+        <Button
+            android:id="@+id/t2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="آیا میدانید بخشی از ارزش دوج کوین به توییت های ایلان ماسک ربط دارد ؟ او میخواهد علامت دوج کوین را روی ماه هک کند ."
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:background="@color/smallbtncolor"
+            />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:src="@mipmap/a4_dogecoin"
+            android:layout_alignParentLeft="true"
+
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/r2"
+        >
+        <Button
+            android:id="@+id/t3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="آیا میدانید به سرمایه گذاران بزرگ ارز دیجیتال نهنگ ها گفته میشوند ؟ آنها میتوانند با سرمایه گذاری زیاد روی یک ارز قیمت آن را تغییر دهند."
+            android:textSize="23dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentLeft="true"
+            android:background="@color/bigbtncolor"
+            />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/nahang"
+            android:layout_alignParentRight="true"
+
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/r3"
+        >
+        <Button
+            android:id="@+id/t4"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="آیا میدانید شما نیز میتوانید ارز دیجیتال مخصوص خود و به نام خود را بسازید."
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:background="@color/smallbtncolor"
+            />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:src="@mipmap/your"
+            android:layout_alignParentLeft="true"
+
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

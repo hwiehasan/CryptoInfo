@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/backgroundhome"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/sarrafi"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/smallbtncolor"
+        android:text="صرافی ها"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:onClick="sarrafi"/>
+
+    <Button
+        android:id="@+id/moarrefiRamzArzha"
+        android:layout_width="190dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/bigbtncolor"
+        android:text="معرفی ارزها"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:onClick="moarrefiArz"/>
+
+    <Button
+        android:id="@+id/wallet"
+        android:layout_width="190dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/sarrafi"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/bigbtncolor"
+        android:text="ولت و انواع کیف پول"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:onClick="wallet"/>
+
+    <Button
+        android:id="@+id/amozeshkarbasarrafi"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/moarrefiRamzArzha"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/smallbtncolor"
+        android:text="آموزش کار با صرافی"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:onClick="karbasarrafi"/>
+
+    <Button
+        android:id="@+id/ayaMidanid"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/wallet"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/smallbtncolor"
+        android:text="آیا میدانید"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:onClick="ayamidanid"/>
+
+    <Button
+        android:id="@+id/airdrop"
+        android:layout_width="190dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/amozeshkarbasarrafi"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/bigbtncolor"
+        android:text="ایردراپ"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:onClick="airdrop"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:src="@mipmap/exit"
+        android:onClick="logotApp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@mipmap/setting"
+        android:onClick="setting"/>
+
+
+</RelativeLayout>
